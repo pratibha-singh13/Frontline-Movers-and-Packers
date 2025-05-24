@@ -1,7 +1,11 @@
+import React from 'react';
+
 const Footer = () => {
     return (
-        <footer className="bg-blue-800 text-white py-6 text-center">
-            <p>&copy; {new Date().getFullYear()} Frontline Movers and Packers. All rights reserved.</p>
+        <footer className="bg-[#4B0082] text-white text-center py-6 mt-10 shadow-inner">
+            <p className="text-sm font-medium">
+                &copy; {new Date().getFullYear()} Frontline Movers & Packers. All rights reserved.
+            </p>
         </footer>
     );
 };

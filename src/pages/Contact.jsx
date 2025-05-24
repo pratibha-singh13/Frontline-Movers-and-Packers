@@ -37,6 +37,13 @@ const Contact = () => {
                 >
                     <h2 className="text-2xl font-semibold text-[#4B0082] mb-4">Send us a message</h2>
 
+                    {/* Redirect after successful submission */}
+                    <input
+                        type="hidden"
+                        name="_next"
+                        value="https://frontline-movers-and-packers.vercel.app/"
+                    />
+
                     <input
                         type="text"
                         name="name"
